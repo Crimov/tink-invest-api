@@ -1,0 +1,9 @@
+databaseChangeLog:
+  # Initial schema
+  - changeSet:
+      id: 001-init-schema
+      author: VMSinitsyn
+      changes:
+        - sqlFile:
+            path: sql/001-init-schema.sql
+            relativeToChangelogFile: false
